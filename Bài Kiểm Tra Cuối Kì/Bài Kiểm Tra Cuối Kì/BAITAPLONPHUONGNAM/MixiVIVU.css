@@ -1,0 +1,49 @@
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    width: 30%;
+    height: auto;
+  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #119452;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #555;
+  color: white;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+.login {
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+header{
+  background-image: url(./33.png)
+}
